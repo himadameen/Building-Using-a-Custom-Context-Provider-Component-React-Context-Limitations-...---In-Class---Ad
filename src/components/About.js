@@ -7,7 +7,7 @@ const About = () => {
   return (
       <>
         <div>You are on the about page</div>
-        <a data-test-id="location-display">{location.pathname}</a>
+        <a data-testid="location-display">{location.pathname}</a>
     </>
   )
 }

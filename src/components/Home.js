@@ -8,7 +8,7 @@ const Home = () => {
   return (
     <>
     <div>You are home</div>
-    <a data-test-id="location-display">{location.pathname}</a>
+    <a data-testid="location-display">{location.pathname}</a>
     
     </>
   )
