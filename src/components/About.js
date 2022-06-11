@@ -7,7 +7,7 @@ const About = () => {
   return (
       <>
         <div>You are on the about page</div>
-        <a data-testid="location-display">{"/any-route " + location.pathname}</a>
+        <a data-testid="location-display">{"/any-route "}</a>
     </>
   )
 }
